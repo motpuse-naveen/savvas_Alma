@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 990px) {
-    .rikshaw-girl-text {
+    /*.rikshaw-girl-text {
         position: relative;
         padding-left: 0px;
         max-width: 740px;
@@ -29,7 +29,7 @@
     .popup-content-col .col-md-12 .popup-left-title {
         margin-top: 0;
         text-align: left;
-    }
+    }*/
 }
 @media (max-width: 990px) {
     .author-container .author-wrap{
@@ -44,7 +44,7 @@
     .author-container .author-wrap {
         float: left;
         padding: 20px;
-        padding-top: 145px;
+        /*padding-top: 145px;*/
     }
     .rikshaw-girl-bg {
         background-size: 680px;
@@ -53,7 +53,7 @@
     }
     .rikshaw-girl-text {
         position: relative;
-        padding-top: 60px;
+        padding-top: 20px;
         padding-left: 0px;
         max-width: 740px;
         margin: 0 auto;
@@ -67,17 +67,20 @@
         line-height: 170px;
         margin-right: auto;
     }
+    .nm_subHeading{
+        margin-top: 10px;
+    }
     .moreInfo-wrapper {
         float: right;
-        width: 370px;
+        width: 302px;
         margin-top: 0px;
     }
     .moreInfo-container {
-        margin-top: 100px;
+        margin-top: 0px;
     }
     .award-circle-wrap {
-        padding-left: 100px;
-        padding-top: 160px
+        padding-left: 193px;
+        padding-top: 220px;
     }
     .author-wrap span.image {
         float: left;
@@ -97,10 +100,20 @@
     }
     .orbitdiv-button{
         right: -47px;
-        top:-284px;
+        top:-74px;
     }
+    /*NM: 11-05-2022*/
     .moreInfo{
-        top: 100px;
+        top: 191px;
+    }
+    /*NM: 11-05-2022*/
+    .moreInfo-additionaltxt {
+        padding: 40px 28px;
+        padding-top: 200px;
+    }
+    /*NM: 11-05-2022*/
+    .bg-image-opacity{
+        display: block;
     }
 }
 
@@ -111,14 +124,14 @@
         line-height: 130px;
         padding-left: 20px;
     }
-    
+    /*NM: 11-05-2022*/
     .author-container .author-wrap{
-        padding-top: 220px;
+        padding-top: 10px;
     }
+    /*NM: 11-05-2022*/
     .moreInfo-container {
-        margin-top: 150px;
+        margin-top: 0px;
     }
-    
     .text-content .card {
         height: auto;
         margin-bottom: 1rem;
@@ -126,8 +139,14 @@
     img.aboutBookCover{
         float: left;
     }
+     /*NM: 11-05-2022*/
     .orbitdiv-button{
-        top: -255px;
+        top: -204px;
+    }
+    /*NM: 11-05-2022*/
+    .moreInfo-additionaltxt {
+        padding: 115px 28px;
+        padding-bottom: 0px;
     }
 }
 
@@ -142,10 +161,10 @@
         font-size: 9px;
     }
     .author-container .author-wrap{
-        padding-top: 145px;
+        padding-top: 10px;
     }
     .moreInfo-container {
-        margin-top: 150px;
+        margin-top: 0px;
     }
     
 }
@@ -155,6 +174,21 @@
     .orbit1, .orbit2, .orbit3{display: none;}
     .left-side-bar{display: none;}
     .popup-concave-col{display: none;}
+    .rikshaw-girl-text{
+        padding-top: 60px;
+    }
+    /*NM: 11-05-2022*/
+    .author-container.desktop{
+        display: none;
+    }
+    /*NM: 11-05-2022*/
+    .author-container.mobile{
+        display: block;
+    }
+    /*NM: 11-05-2022*/
+    .author-container.mobile .author-wrap {
+        padding-top: 140px;
+    }
     .popup-content-col{
         flex: 0 0 100%;
         max-width: 100%;
@@ -229,7 +263,7 @@
     .rikshaw-girl-bg {
         background-size: 110%;
         background-position-x: -20px;
-        background-position-y: -110px;
+        background-position-y: -40px;
     }
     .award-circle-wrap {
         padding-left: 0px;
@@ -310,14 +344,25 @@
 }
 @media (max-width: 430px) {
     h1.main-heading{
-        font-size: 80px;
+        font-size: 140px;
         line-height: 80px;
+    }
+    .nm_subHeading {
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 10px;
     }
     .rikshaw-girl-text {
         padding-bottom: 0%;
     }
     .award-circle-wrap {
-        top: 26%;
+        top: 37%;
+        margin-right: -20px;
+    }
+    .author-container.mobile .author-wrap {
+        padding-top: 242px;
+        padding: 10px;
+        padding-top: 280px;
     }
     .author-container .text{
         font-size: 20px;
