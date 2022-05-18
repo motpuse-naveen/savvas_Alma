@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 990px) {
-    /*.rikshaw-girl-text {
+    .rikshaw-girl-text {
         position: relative;
         padding-left: 0px;
         max-width: 740px;
@@ -23,13 +23,13 @@
         text-shadow: 15px 0px 47px rgb(0 0 0);
         color: #FFFFFF;
         letter-spacing: -5px;
-        line-height: 170px;
+        line-height: 73px;
         margin-right: auto;
     }
     .popup-content-col .col-md-12 .popup-left-title {
         margin-top: 0;
         text-align: left;
-    }*/
+    }
 }
 @media (max-width: 990px) {
     .author-container .author-wrap{
@@ -72,7 +72,7 @@
     }
     .moreInfo-wrapper {
         float: right;
-        width: 302px;
+        width: 295px;
         margin-top: 0px;
     }
     .moreInfo-container {
@@ -80,7 +80,7 @@
     }
     .award-circle-wrap {
         padding-left: 193px;
-        padding-top: 220px;
+        padding-top: 203px;
     }
     .author-wrap span.image {
         float: left;
@@ -100,7 +100,7 @@
     }
     .orbitdiv-button{
         right: -47px;
-        top:-74px;
+        top: -74px;
     }
     /*NM: 11-05-2022*/
     .moreInfo{
@@ -114,6 +114,41 @@
     /*NM: 11-05-2022*/
     .bg-image-opacity{
         display: block;
+    }
+}
+@media (max-width: 780px) {
+    h1.main-heading {
+        font-size: 130px;
+        letter-spacing: 0px;
+        line-height: 130px;
+        padding-left: 20px;
+    }
+    /* .author-container .author-wrap {
+        margin-top: -94px;
+    } */
+    /*NM: 11-05-2022*/
+    .author-container .author-wrap{
+        padding-top: 10px;
+    }
+    /*NM: 11-05-2022*/
+    .moreInfo-container {
+        margin-top: 179px;
+    }
+    .text-content .card {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    img.aboutBookCover{
+        float: left;
+    }
+     /*NM: 11-05-2022*/
+    .orbitdiv-button{
+        top: -204px;
+    }
+    /*NM: 11-05-2022*/
+    .moreInfo-additionaltxt {
+        padding: 115px 28px;
+        padding-bottom: 0px;
     }
 }
 
