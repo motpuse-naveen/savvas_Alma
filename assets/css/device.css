@@ -35,6 +35,11 @@
     .author-container .author-wrap{
         padding-right: 30px;
     }
+    .award-circle-wrap {
+        padding-left: 193px;
+        padding-top: 239px;
+        
+    }
 }
 
 @media (max-width: 840px) {
@@ -81,6 +86,7 @@
     .award-circle-wrap {
         padding-left: 193px;
         padding-top: 203px;
+        
     }
     .author-wrap span.image {
         float: left;
@@ -134,6 +140,16 @@
     .moreInfo-container {
         margin-top: 179px;
     }
+    .award-circle-wrap {
+        padding-left: 193px;
+        margin-top: -114px;
+        
+    }
+    .moreInfo-wrapper {
+        float: right;
+        width: 286px;
+        margin-top: 0px;
+    }
     .text-content .card {
         height: auto;
         margin-bottom: 1rem;
@@ -159,12 +175,21 @@
         line-height: 130px;
         padding-left: 20px;
     }
+    .moreInfo-wrapper {
+        float: right;
+        width: 279px;
+        /* margin-top: 123px; */
+    }
     /*NM: 11-05-2022*/
     .author-container .author-wrap{
         padding-top: 10px;
     }
     /*NM: 11-05-2022*/
     .moreInfo-container {
+        margin-top: 0px;
+    }
+    .award-circle-wrap {
+        padding-left: 193px;
         margin-top: 0px;
     }
     .text-content .card {
