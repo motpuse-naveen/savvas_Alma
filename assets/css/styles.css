@@ -1263,10 +1263,11 @@ img.aboutBookCover{
   .nm_subHeading{
     font-size: 56px;
     letter-spacing: 0px;
-    color: #000000;
+    color: #ffffff;
     position: absolute;
     margin-top: 47px;
-    text-shadow: none;
+    text-shadow: 6px 0px 20px rgb(0 0 0);
+    /* text-shadow: none; */
     line-height: 64px;
   }
 
